@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*body{
+    background: red;
+}*/
+
+    /*background-color: rgb(69, 136, 204); */
+.menu-bar{
+    display: flex;
+    flex-direction: space-between;
+    text-align: center;
+    align-items: center; 
+    justify-content: center;
+    list-style: none;
+    background-color:skyblue;
+    
+    /*background-color:rgb(37, 90, 151);*/
+}
+li {
+    font-size: 2rem;
+    padding: 5% 5%;
+}
+a { 
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    color: white;
+    padding: 4.9% 0;
+    font-size: 4rem;
+}
+h2, p{
+    text-align: center;
+    color:red; 
+}
+h2{
+    padding: 50px;
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+}
+.logo-icon{
+    justify-content: right;
+    align-items: right;
+    margin-top: 0;
+    padding: 5px;
+
+}
+.pak_icon{
+    align-items:left;
+    justify-content: center;
+}
+.story{
+    text-decoration: none;
+}
+
+.remote{
+    text-transform: uppercase;
+}
+.hero-image{
+    background: center/100% url('mtn.jpg');
+    height: 500px; 
+}
+.hero-image > img {
+    width: 250px;
+    height: 250px;
+    padding-left: 45%;
+}
+.my_story_section {
+    border: solid blue 5px;
+    background: lightseagreen;
+    padding: 5% 10%;
+}
+.second-image{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 41%;
+    
+}
+.second-header{
+    /*margin-top:30px; */
+    font-size: 50px;
+    padding: 80px;
+    /*border: solid;
+    background-color: black;*/
+}
+h3,footer{
+    margin-top:30px;
+    text-align: center;
+    color: red;
+    font-size: 25px;
+}
+.ygo{
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 35%;
+    margin: 30px 0;
+}
+.cmt{
+    text-align: center;
+    color:rgb(31, 206, 40);
+
+}
+/*Mobile Version*/
+@media screen and (max-width: 600px){
+    h1{
+        text-align:center;
+        color:skyblue;
+        padding-bottom: 10%;
+        font-size: 2rem;
+        padding:auto;
+    }
+    .menu-bar{
+        background-color: blue;
+        display: flex;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .second-image{
+        display:flex;
+        position:absolute;
+        padding-left: 6rem;
+    }
+    p{
+        display: flex wrap;
+    }
+    .ygo{
+    display: flex;
+    padding-left: 35%;
+    }
+
+    
+
+
+}
